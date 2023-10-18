@@ -71,3 +71,7 @@ a:visited:active {
     width: 600px;
     margin: 0 auto;
 }
+
+p:last-of-type {
+    margin-bottom: 50px;
+}
