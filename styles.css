@@ -17,6 +17,9 @@
     width: 200px;
     margin: 20px auto;
 }
+#button-2 {
+    background-color: red;
+}
 .button:hover,
 .button:visited:hover {
     color: #FFF;
@@ -70,12 +73,13 @@ a:visited:active {
 .page {
     width: 600px;
     margin: 0 auto;
+    
 }
 
 p:last-of-type {
     margin-bottom: 50px;
 }
-p:first-of-type {
+.page > p:first-of-type {
     color:#7e8184;
     font-style: italic;
 }
